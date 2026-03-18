@@ -62,6 +62,4 @@ See `run_examples.txt` for Windows-ready example commands.
 
 ## Notes
 
-This package is intentionally focused on reproducible downstream analyses from
-processed inputs. It is suitable for manuscript-associated sharing and can be
-adapted directly into a public GitHub repository if desired.
+This package is focused on reproducible downstream analyses from processed inputs. It provides a clean workflow for manuscript-level spectral, morphology, and GWAS summary analyses.
