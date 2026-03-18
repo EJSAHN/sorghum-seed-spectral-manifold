@@ -1,0 +1,18 @@
+# Example path configuration for local use / GitHub adaptation.
+# This file is informational only; the current scripts use CLI arguments.
+
+project_root: C:/projects/senegal
+output_subdir: _paper1_output_spectral_v5
+
+processed_inputs:
+  reflectance_dir: R_spectra
+  fluorescence_dir: F_spectra
+  hapmap_file: combined_Anthracnosemarch.hmp.txt
+
+reference_annotation:
+  gene_gff: Sbicolor_454_v3.1.1.gene.gff3.gz
+  exon_gff: Sbicolor_454_v3.1.1.gene_exons.gff3.gz
+  locus_map: Sbicolor_454_v3.1.1.locus_transcript_name_map.txt
+  annotation_info: Sbicolor_454_v3.1.1.P14.annotation_info.txt.gz
+  defline: Sbicolor_454_v3.1.1.P14.defline.txt.gz
+  synonym: Sbicolor_454_v3.1.1.synonym.txt

@@ -1,0 +1,19 @@
+# Example commands (Windows / Anaconda Prompt)
+
+# 1) Core manuscript pipeline
+conda activate gwas_env
+cd C:\projects\senegal\Supplementary_Software_1_Sorghum_spectral_pipeline
+python main\sorghum_spectral_main.py --project-root C:\projects\senegal
+
+# 2) Inter-seed post-GWAS processing
+conda activate gwas_env
+cd C:\projects\senegal\Supplementary_Software_1_Sorghum_spectral_pipeline
+python main\sorghum_interseed_postgwas.py --project-root C:\projects\senegal
+
+# 3) Supplemental support analyses (tables only)
+conda activate gwas_env
+cd C:\projects\senegal\Supplementary_Software_1_Sorghum_spectral_pipeline\support
+python support_tables.py --project-root C:\projects\senegal --output-dir C:\projects\senegal\support_outputs\tables --verbose
+
+# Optional: fast validation without workbook export
+python support_tables.py --project-root C:\projects\senegal --output-dir C:\projects\senegal\support_outputs\tables --verbose --skip-workbook
